@@ -172,3 +172,7 @@ if [[ $which_term != *"gnome-terminal"* ]] && [[ $which_term != *"datlinux"* ]];
    neofetch
 fi
 
+# Podman / Docker
+export PATH="$PATH:/usr/local/bin"
+alias podman='podman-remote-static-linux_amd64'
+alias docker='podman-remote-static-linux_amd64'
